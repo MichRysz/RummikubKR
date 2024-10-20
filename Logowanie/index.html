@@ -4,25 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-         <link rel="stylesheet" href="styles.css">
+         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+<!--dwie kropki-->
         <div class="bg" aria-hidden="true">
             <div class="bg__dot"></div>
             <div class="bg__dot"></div>
         </div>
+        
         <form autocomplete="off">
             <div class="form__icon" aria-hidden="true"></div>
             <div class="form__input-container">
-                <input id="user" aria-label="User" type="text" placeholder=" "/>
-                <label for="user">User</label>  
+                <input id="imie" aria-label="imie" type="text" placeholder=" "/>
+                <label for="imie">Imię</label>  
             </div>
             <div class="form__input-container">
-                <input id="password"  aria-label="Password" type="password" placeholder=" "/>
-                <label for="password">Password</label>
+                <input id="nazwisko"  aria-label="nazwisko" type="text" placeholder=" "/>
+                <label for="nazwisko">Nazwisko</label>
+            </div>
+            
+            <div class="form__input-container">
+                <input id="e-mail" aria-label="e-mail" type="text" placeholder=" "/>
+                <label for="e-mail">e-mail</label>  
             </div>
             <div class="form__spacer" aria-hidden="true"></div>
-            <button>Login</button>
+            <button>Zapisz</button>
         </form>
     </body>
 </html>
